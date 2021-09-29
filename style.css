@@ -1,0 +1,143 @@
+body {
+    background-image: url('/imgs/pattern-background-desktop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 40px 50px -40px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.main-h {
+    text-align: center;
+}
+
+.order-summary {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6rem;
+    color: rgb(90, 89, 89);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.plan {
+    width: 300px;
+    height: 50px;
+    margin-left: 55px;
+    border: 2px solid transparent;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+}
+
+.plan img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#middle-1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 9px;
+    display: block;
+}
+
+#middle-2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+    float: left;
+    display: block;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+
+.plan a {
+    margin-left: 90px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+}
+
+.btn {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px rgb(211, 209, 209);
+}
+
+.cancel a {
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14x;
+    margin-left: 160px;
+}
+
+.plan a:hover {
+    color: hsl(257, 72%, 36%);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: hsl(257, 55%, 34%);
+}
+
+.cancel a:hover {
+    color: rgb(81, 80, 80);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media(max-width:417px){
+    html{
+        background-image: url('/imgs/pattern-background-mobile.svg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80vh;
+    }
+    .attribution{
+        text-align: center;
+    }
+}
